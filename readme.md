@@ -1,6 +1,6 @@
 
-        Know the for of loops  <Start>
-=================================================
+                  Know the for of loops  <Start>
+<br>
 // * it means same work will continued once after another until you stop it  <br>
 /// * ekta jinis bar bar chote thaka  <br>
 
