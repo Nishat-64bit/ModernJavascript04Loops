@@ -3,22 +3,22 @@
 <br>
 // * it means same work will continued once after another until you stop it  <br>
 /// * ekta jinis bar bar chote thaka  <br>
-
 // for of loops  start  <br>
-
-//
 
 
 ----------------------------------------------------------
 
-const numbers = [1, 3, 5, 8, 9] // arry variable <br>
-// const num // another singleVariable <br>
-for(const num of numbers){ // protome for e dokbe , then numbers array te , sekan theke single element 1st <br>theke nibe  & show korbe , nibe & show korbe , jotokon na array ses ho<br>
-    console.log(num);<br>
-  <br>  
-}<br>
-//
+const namess = ["k", "M", "n", "l"]
 
+for (const name of namess){
+    console.log(name);
+
+}
+// output : 
+// k
+// M
+// n
+// l
 ----------------------------------------------------------
 ----------------------------------------------------------
 /// another example <br>
