@@ -8,22 +8,24 @@
 
 ----------------------------------------------------------
 
-const namess = ["k", "M", "n", "l"]
-
-for (const name of namess){
-    console.log(name);
-
-}
-// output : 
-// k
-// M
-// n
-// l
+const namess = ["k", "M", "n", "l"]<br>
+<br>
+for (const name of namess){<br>
+    console.log(name);<br>
+<br>
+}<br>
+// output : <br>
+// k<br>
+// M<br>
+// n<br>
+// l<br>
 ----------------------------------------------------------
 ----------------------------------------------------------
 /// another example <br>
 
-const fruits = ["A", "B" , "C", "D" , "E"] // until the array element end , the loop  will continued<br> 
+const fruits = ["A", "B" , "C", "D" , "E"] <br>
+<br>
+// until the array element end , the loop  will continued<br> 
 for (const fruit of fruits){<br>
 console.log(fruit); // fruits theke ekta ekta kore fruit nea seta dekabe <br>
 console.log("I want to read")<br>
