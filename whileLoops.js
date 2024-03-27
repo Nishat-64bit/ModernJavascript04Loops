@@ -1,52 +1,5 @@
-                  Know the for of loops  <Start>
+/////
 
-<br>
-// * it means same work will continued once after another until you stop it  <br>
-/// * ekta jinis bar bar chote thaka  <br>
-// for of loops  start  <br>
-
----
-
-const namess = ["k", "M", "n", "l"]<br>
-<br>
-for (const name of namess){<br>
-console.log(name);<br>
-<br>
-}<br>
-// output : <br>
-// k<br>
-// M<br>
-// n<br>
-// l<br>
-
----
-
----
-
-/// another example <br>
-
-const fruits = ["A", "B" , "C", "D" , "E"] <br>
-<br>
-// until the array element end , the loop will continued<br>
-<br>
-for (const fruit of fruits){<br>
-console.log(fruit); // fruits theke ekta ekta kore fruit nea seta dekabe <br>
-console.log("I want to read")<br>
-}<br>
-
----
-
-// sumup : array modde protekta upadan ke loop caliea amra dekte pari .<br>
-/// this is the usage of for of loop ,<br>
-/// use array and singleconst variable<br>
-//? for of loops end /// need array and single variable<br>
-
-        Know the for of loops  <End>
-
-=================================================
-
-        Know the while loops  <start>
-=================================================
 const number = 18;
 
 if ( number < 10 ){
@@ -190,19 +143,4 @@ while (number <=10){
     number++
 }
 
-
-        Know the while loops  <End>
-=================================================
-
-                   Total Sumup
-=================================================
-
-for of loops :
-
-const numbers = [1, 3, 5, 7, 9]
-
-for(const number of numbers){
-    console.log(number)
-}
-
-while loops :
+/// Task 1 while loop :
