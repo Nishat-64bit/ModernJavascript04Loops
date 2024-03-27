@@ -47,81 +47,89 @@ console.log("I want to read")<br>
 
         Know the while loops  <start>
 =================================================
-const number = 18;
 
-if ( number < 10 ){
-    console.log("you can be something");
-}
-console.log("welcome here");
+----------------------------------------------------------------
+const number = 18;<br>
+<br>
+if ( number < 10 ){<br>
+    console.log("you can be something");<br>
+}<br>
+console.log("welcome here");<br>
+----------------------------------------------------------------
 
+<br>
+// run and debug kemne korba ????????<br>
+// ---------------------------------------------------------<br>
+// node js machine kibabe dekba je aeta kaj korce <br>
+// 1st e breakpoint ekddom suru te daw, dekba red brightness bere gese<br>
+// run and debug click koro , Node js e click koro,<br>
+// f10 chapo  and thamate shift+ f5<br>
+// and then ciele brake point ke abr click korle off hoe jabe<br>
+<br>
+<br>
+----------------------------------------------------------------
+----------------------------------------------------------------
+// while loop start <br>
+//while loop jotokon sotto hocce totokkon cholte thakbe<br>
+//<br>
+let numbers = 0 // loop variable<br>
+while (numbers <5){<br>
+    console.log("loop choltese", numbers)<br>
+    //numbers = numbers + 1 // loop variable aer maan change korte hoi <br>
+    //numbers += 1<br>
+    numbers++<br>
+}<br>
+//<br>
+let count = 0;<br>
+while(count <6){<br>
+    console.log("Hello my jan", count);<br>
+    count += 1<br>
+}<br>
+<br>
+----------------------------------------------------------------
 
-// run and debug kemne korba 
-// ---------------------------------------------------------
-// node js machine kibabe dekba je aeta kaj korce 
-// 1st e breakpoint ekddom suru te daw, dekba red brightness bere gese
-// run and debug click koro , Node js e click koro,
-// f10 chapo  and thamate shift+ f5
-// and then ciele brake point ke abr click korle off hoe jabe
-
-
-
-// while loop start 
-//while loop jotokon sotto hocce totokkon cholte thakbe
-//
-let numbers = 0 // loop variable
-while (numbers <5){
-    console.log("loop choltese", numbers)
-    //numbers = numbers + 1 // loop variable aer maan change korte hoi 
-    //numbers += 1
-    numbers++
-}
-//
-let count = 0;
-while(count <6){
-    console.log("Hello my jan", count);
-    count += 1
-}
-
-// 1 theke 10 porjonto sonka dekaw  using while ///
-
-// practise : 1
-let counts = 1;
-
-while ( counts <=10){
-    console.log(counts);
-    counts++ // looping variable always change korte hobe
-}
-output : 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-
-// practise : 2 
-//50 theke 100 ;
-
-let number = 50;
-
-while ( number <=100){
-    console.log("Hello , My Ekra " , number);
-    number++
-}
-output :
-Hello , My Ekra  50
-Hello , My Ekra  51
-Hello , My Ekra  52
-Hello , My Ekra  53
-Hello , My Ekra  54
-Hello , My Ekra  55
-Hello , My Ekra  56
-Hello , My Ekra  57
-Hello , My Ekra  58
+// 1 theke 10 porjonto sonka dekaw  using while ///<br>
+<br>
+// practise : 1<br>
+let counts = 1;<br>
+<br>
+while ( counts <=10){<br>
+    console.log(counts);<br>
+    counts++ // looping variable always change korte hobe<br>
+}<br>
+output : <br>
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+10<br>
+<br>
+----------------------------------------------------------------
+----------------------------------------------------------------
+// practise : 2 <br>
+//50 theke 100 ;<br>
+<br>
+let number = 50;<br>
+<br>
+while ( number <=100){<br>
+    console.log("Hello , My Ekra " , number);<br>
+    number++<br>
+}<br>
+output :<br>
+Hello , My Ekra  50<br>
+Hello , My Ekra  51<br>
+Hello , My Ekra  52<br>
+Hello , My Ekra  53<br>
+Hello , My Ekra  54<br>
+Hello , My Ekra  55<br>
+Hello , My Ekra  56<br>
+Hello , My Ekra  57<br>
+Hello , My Ekra  58<br>
 Hello , My Ekra  59
 Hello , My Ekra  60
 Hello , My Ekra  61
@@ -163,46 +171,192 @@ Hello , My Ekra  96
 Hello , My Ekra  97
 Hello , My Ekra  98
 Hello , My Ekra  99
-Hello , My Ekra  100
+Hello , My Ekra  100<br>
 
-///practise - 3 
-// 1 theke 10 porjonto sonkar jogfall ( incremental / mane samner theke barse / choto theke bor0 / 1teke 2)
-let numberss = 1 ;
-let sum = 0;
-
-while ( numberss <=10){
-    console.log(numberss);
-    sum = sum + numberss;
-    console.log(sum);
-    numberss++
+----------------------------------------------------------------
+----------------------------------------------------------------
+///practise - 3 <br>
+// 1 theke 10 porjonto sonkar jogfall ( incremental / mane samner theke barse / choto theke bor0 / 1teke 2)<br>
+let numberss = 1 ;<br>
+let sum = 0;<br>
+<br>
+while ( numberss <=10){<br>
+    console.log(numberss);<br>
+    sum = sum + numberss;<br>
+    console.log(sum);<br>
+    numberss++<br>
+}<br>
+<br>
+----------------------------------------------------------------
+/// practice : 4 ;<br>
+// 1 teke 10 porjonto jego 2 dea bag jai setar jogfall <br>
+<br>
+let number = 1 ;<br>
+<br>
+while (number <=10){<br>
+    // check if the number is divided by 2 <br>
+    if (number % 2 === 0){<br>
+        console.log("this number is a prime number", number);<br>
+    }<br>
+    number++<br>
+}<br>
+<br>
+----------------------------------------------------------------
+---------------------------------------------------------------------------
+/// Task 1 while loop :<br>
+<br>
+//"I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. <br>
+//So display this.<br>
+<br>
+let messageCount = 1;<br>
+<br>
+while (messageCount <= 60){<br>
+    console.log("I will invest at least 6 hrs every single day for next 60 days!");<br>
+    messageCount++<br>
+}<br>
+<br>
+----------------------------------------------------------------
+/// Task 2 while loop :<br>
+<br>
+// Subtask-1:<br>
+<br>
+// Find all the odd numbers from 61 to 100.<br>
+<br>
+let oddNumber = 61;<br>
+<br>
+while (oddNumber <=100){<br>
+    if(oddNumber % 2 !== 0){<br>
+        console.log("this number is odd number", oddNumber);<br>
+    }<br>
+    oddNumber++<br>
+<br>
 }
+<br>
+----------------------------------------------------------------
+// Subtask-2:<br>
+// Find all the even numbers from 78 to 98.<br>
+let evenNumber = 78;<br>
+while (evenNumber <=98) {<br>
+    if ( evenNumber % 2 === 0){<br>
+        console.log("this number is even", evenNumber);<br>
+    }<br>
+    evenNumber++<br>
+    <br>
+}<br>
+<br>
+----------------------------------------------------------------
+// / Task 3 while loop :<br>
+// Subtask-1.1:<br>
+// Display sum of indiviual  odd numbers from 81 to 131.<br>
+//if u want to see one by one addition use console in if <br>
+<br>
+let Oddnumber = 81;<br>
+let sum = 0<br>
+while (Oddnumber <=131){<br>
+    if(Oddnumber % 2 !== 0){<br>
+        sum = sum + Oddnumber<br>
+        console.log("sum of the odd number", sum);<br>
+    }<br>
+    Oddnumber++<br>
+}<br>
+----------------------------------------------------------------
 
-/// practice : 4 ;
-// 1 teke 10 porjonto jego 2 dea bag jai setar jogfall 
-
-let number = 1 ;
-
-while (number <=10){
-    // check if the number is divided by 2 
-    if (number % 2 === 0){
-        console.log("this number is a prime number", number);
-    }
-    number++
-}
 
 
+/// Task 3 while loop :<br>
+// Subtask-1.2:<br>
+// Display sum of all the odd numbers from 81 to 131.<br>
+// if u want to see the final addition use console outside the while loop  .<br> 
+// after it finished it loop the the main sum output will show<br>
+
+let Oddnumber = 81;<br>
+let sum = 0<br>
+while (Oddnumber <=131){<br>
+    if(Oddnumber % 2 !== 0){<br>
+        sum = sum + Oddnumber<br>
+    }<br>
+    Oddnumber++<br>
+}<br>
+console.log("sum of the odd number", sum);<br>
+// output : 2756<br>
+<br>
+----------------------------------------------------------------
+/// Task 4 while loop :<br>
+// Subtask-2:<br>
+// Display sum of all the even numbers from 206 to 311.<br>
+<br>
+let Evencount = 206;<br>
+let sum = 0;<br>
+while ( Evencount <=311){<br>
+if ( Evencount % 2 === 0 ){<br>
+    sum = sum + Evencount<br>
+}<br>
+Evencount++<br>
+}<br>
+console.log("sum of the total even number", Evencount);<br>
+// output : 312<br>
+<br>
+----------------------------------------------------------------
+/// Task 5 while loop :<br>
+<br>
+// Tell Ersa to generate a multiplication table for number 5<br>
+<br>
+let number = 1;<br>
+let multiplier = 5;<br>
+<br>
+while ( number <=10){<br>
+let result = number * multiplier<br>
+console.log(`${multiplier} * ${number} = ${result} `);<br>
+number++<br>
+}<br>
+<br>
+----------------------------------------------------------------
+
+/// Task 6 while loop :<br>
+// Implement a countdown timer that counts down from 21 to 15.<br>
+<br>
+let counTimer = 21;<br>
+<br><br>
+while ( counTimer >=15){<br>
+    console.log(counTimer);<br>
+    counTimer-- // 1 kore komte thakbe // decrement bola hoi <br>
+}<br><br>
+console.log("countdown complete")<br>
+
+----------------------------------------------------------------
+---------------------------------------------------
+let countdown = 100;<br>
+<br>
+while ( countdown >= 1){<br>
+    console.log(countdown);<br>
+    countdown--<br>
+}<br>
+console.log("countdown is complete");<br>
+
+----------------------------------------------------------------
         Know the while loops  <End>
 =================================================
 
                    Total Sumup
 =================================================
 
-for of loops :
-
-const numbers = [1, 3, 5, 7, 9]
-
-for(const number of numbers){
-    console.log(number)
-}
-
-while loops :
+----------------------------------------------------
+for of loops :<br>
+<br>
+const numbers = [1, 3, 5, 7, 9]<br>
+<br>
+for(const number of numbers){<br>
+    console.log(number)<br>
+}<br>
+<br>
+---------------------------------------------------
+while loops :<br>
+<br>
+let coundown = 1;<br>
+<br>
+while (countdown  <=10){<br>
+    console.log("message")<br>
+    countdown++<br>
+}<br>
+<br>
+-----------------------------------------------------------
