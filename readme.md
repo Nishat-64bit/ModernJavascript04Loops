@@ -337,6 +337,225 @@ console.log("countdown is complete");<br>
         Know the while loops  <End>
 =================================================
 
+        Know the For loops  <Start>
+=================================================
+
+----------------------------------------------------------
+// while loop recap /// <br>
+<br>
+let number = 1;// looping varible<br>
+<br>
+while ( number <= 10){  // loop condition<br>
+    console.log("this is important"); // loop statement<br>
+    number++ // loop variable change <br>
+}<br>
+
+----------------------------------------------------------
+----------------------------------------------------------
+/// for loop structure <br>
+// 1st kaj loop variable declaration <br>
+// 2nd kaj loop condition<br>
+///3rd kaj loop variable change<br>
+/// 4th kaj show message<br>
+<br>
+----------------------------------------------------------
+----------------------------------------------------------
+for(let count = 1;count <= 10 ;count++){<br>
+    console.log("this is count",count);<br>
+}<br>
+<br>
+----------------------------------------------------------
+----------------------------------------------------------
+// make for loop 1-10 even sum koren eksate ba indivually ..<br>
+<br>
+// first make while loop even koro<br>
+
+let number = 1;<br>
+let sum = 0;<br>
+
+while (number <=10){<br>
+    if(number % 2 === 0){<br>
+        sum = sum + number<br>
+    }<br>
+    number++<br>
+}<br>
+console.log("the total even number is ", sum)<br>
+<br>
+// for loop even<br>
+let sum = 0<br>
+for (let number = 1; number<=10 ; number++){<br>
+<br>
+    ciele if chara kora jai , just use number =1 , number = number + 2 ///<br>
+<br>
+    if(number % 2 === 0){<br>
+        sum = sum + number<br>
+    }<br>
+}<br>
+console.log("sum of the even number is ", sum);<br>
+<br>
+----------------------------------------------------------
+// for loop oddwith additon all <br>
+let sum = 0<br>
+for(let number = 1 ; number <=10; number++){ <br>
+<br>
+    // ciele if chara kora jai , just use number =1 , number = number + 2<br>
+<br>
+    if ( number % 2 !== 0 ){<br>
+        sum = sum + number;<br>
+    }<br>
+}<br>
+<br>
+console.log("sum of the odd number is ", sum);<br>
+<br>
+----------------------------------------------------------
+----------------------------------------------------------
+// make multiplication table 13<br>
+// at first recap while multiplication<br>
+<br>
+let number = 1;<br>
+let multiply = 13;<br>
+<br>
+while ( number <=10){<br>
+    let result = number*multiply;<br>
+    console.log(` ${multiply} * ${number} = ${result}`);<br>
+    number++<br>
+}<br>
+
+// now make it for loop :<br>
+let multiply = 13<br>
+for ( let number = 1; number <=10 ; number++){<br>
+    let result = multiply * number;<br>
+    console.log(`${multiply} * ${number} = ${result} `);<br>
+}<br>
+<br>
+----------------------------------------------------------
+
+----------------------------------------------------------
+/// Task for loop : 1<br>
+<br>
+//I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this<br>
+<br>
+//<br>
+for (let numberrs = 1; numberrs <= 60; numberrs++) {<br>
+    console.log("I will invest at least 6 hrs every single day for next 60 days!");;<br>
+    <br>
+}<br>
+//<br>
+
+----------------------------------------------------------
+----------------------------------------------------------
+/// Task for loop : 2<br>
+// Subtask-1:<br>
+<br><br>
+// Find all the odd numbers from 61 to 100.<br>
+//<br>
+for ( let number = 61 ; number <= 100 ; number++){<br>
+    if(number % 2 !== 0 ){<br>
+        console.log(number);<br>
+        <br>
+    }<br>
+}<br>
+// alternative //<br>
+
+for ( let number = 61 ; number <= 100 ; number= number + 2){ // number = 61, it increase 2 kore mane bejor<br>
+        console.log(number);<br>
+}<br>
+
+----------------------------------------------------------
+----------------------------------------------------------
+// Subtask-2:<br>
+
+// Find all the even numbers from 78 to 98.<br>
+<br>
+for ( let number = 78 ; number <= 98 ; number =number+1){ // number = 61, it increase 2 kore mane bejor<br>
+    if (number % 2 === 0 ){<br>
+        console.log("the number is even", number);<br>
+    }<br>
+}<br>
+// alternative //<br>
+
+for ( let number = 78 ; number <= 98 ; number =number+2){ // number = 78, it increase 2 kore mane jor<br>
+    console.log("the number is even", number);<br>
+}<br>
+<br>
+----------------------------------------------------------  
+----------------------------------------------------------
+/// Task for loop : 3<br>
+// Subtask-1:<br>
+
+// Display sum of all the odd numbers from 91 to 129.<br>
+let sum = 0;<br>
+for (let number = 91; number <=129 ; number=number+2){<br>
+    sum = sum + number;<br>
+}<br>
+console.log("sum of the all odd number", sum)<br>
+<br>
+----------------------------------------------------------
+// u can use it ifelse also instead of increment<br>
+<br>
+// Subtask-2:<br>
+<br>
+// Display sum of all the even numbers from 51 to 85.<br>
+<br>
+let sum = 0;<br>
+for (let number = 51; number <=85 ; number=number+2){v
+    sum = sum + number;<br>
+}<br>
+console.log("sum of the all odd number", sum)<br>
+
+----------------------------------------------------------
+//recap while loop //<br>
+<br>
+let number = 51<br>;
+let sum  = 0;<br>
+<br>
+while (number <=85) {<br>
+    sum = sum + number;<br>
+    number = number + 2; // u can use ifelse also<br>
+}<br>
+console.log("sum of the all odd number ", sum);<br>
+
+----------------------------------------------------------
+----------------------------------------------------------
+//recap while loop //<br>
+<br>
+<br>
+/// Task for loop : 4<br>
+// Generate a multiplication table for number 9<br>
+<br>
+//recap while loop <br>
+let number = 1;<br>
+let multiply = 9;<br>
+<br>
+while (number <=10) {<br>
+    let result = number * multiply;<br>
+    console.log(`${multiply} * ${number} = ${result} `);<br>
+    number++<br>
+}<br>
+// now use for loop <br>
+<br>
+let multiply = 9;<br>
+for (  let number = 1 ; number <=10 ; number++){<br>
+    let result = number * multiply; // result ke bitore nea kaj korte hobe .<br>
+    console.log(`${multiply} * ${number} = ${result} `);<br>
+}<br>
+
+----------------------------------------------------------
+----------------------------------------------------------
+/// Task for loop : 5<br>
+// Implement a countdown timer that counts down from 81 to 65.<br>
+<br>
+for ( let number = 81 ; number >= 65 ; number--){<br>
+    console.log(number);<br>
+}<br>
+console.log("countdown is complete");<br>
+<br>
+----------------------------------------------------------
+
+
+        Know the For loops  <End>
+=================================================
+
                    Total Sumup
 =================================================
 
@@ -360,3 +579,10 @@ while (countdown  <=10){<br>
 }<br>
 <br>
 -----------------------------------------------------------
+for loops : <br>
+ <br>
+ for (let number = 1; number<=10; number++){<br>
+    console.log(number)<br>
+ }<br>
+ <br>
+ -----------------------------------------------------------
