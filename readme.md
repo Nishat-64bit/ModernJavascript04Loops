@@ -604,156 +604,189 @@ console.log("sum of the number that devisible by 3 is ",sum);
 
         Know When To Use A Break And Continue <Start>
 =================================================
-// continue >>> skip this one 
-// continue >>> ekta iteration bondo kore onno iteration calate pari (if dea)
-// continue te for loop e increment/ decrement kono problem nai tobe 
-// continue te while loop e increment/ decrement e continue use korte hobe while condition er porer line e
-// brake >>> i am done with this loop. -- loop end
-
-
+// continue >>> skip this one <br>
+// continue >>> ekta iteration bondo kore onno iteration calate pari (if dea)<br>
+// continue te for loop e increment/ decrement kono problem nai tobe <br>
+// continue te while loop e increment/ decrement e continue use korte hobe while condition er porer line e<br>
+// brake >>> i am done with this loop. -- loop end<br>
+<br>
+<br>
 =================================================================
-// brake concept & Exercise
+// brake concept & Exercise<br>
+<br>
+------------------------------------------
+//  E- 1<br>
+
+for ( let number = 1; number<=100; number++){<br>
+    console.log(number);<br>
+    if (number >=17){ // brake // ami ciele jekono loop ke brake korte pare if(condition) use kore...<br>
+        break;<br>
+    }<br>
+}<br>
+console.log("brake is completed");<br>
+<br>
+------------------------------------------
+------------------------------------------
+
+// E - 2<br>
+// use while loop with brake <br>
+// 54 to 1<br>
+<br>
+let numbers = 54;<br>
+while (numbers >=1) {<br>
+    console.log(numbers);<br>
+    if (numbers <25){ // 54 theke 24 porjonto dekte cie ami <br>
+        break<br>
+    }<br>
+    numbers--<br>
+    <br>
+}<br>
 
 ------------------------------------------
-//  E- 1
 
-for ( let number = 1; number<=100; number++){
-    console.log(number);
-    if (number >=17){ // brake // ami ciele jekono loop ke brake korte pare if(condition) use kore...
-        break;
-    }
-}
-console.log("brake is completed");
-
+// E - 3<br>
+// use For loop with brake <br>
+// 108 to 50 <br>
+//break 108 to 40<br>
+<br>
+for (let number = 108 ; number>=50; number--){<br>
+   // console.log(number); // aekane console dile check chara print dibe .<br>
+    if ( number < 60){<br>
+        break;<br>
+    }<br>
+    console.log(number); // aekane dile aage check then print ...<br>
+}<br>
+console.log("break is started");<br>
+<br>
 ------------------------------------------
 ------------------------------------------
 
-// E - 2
-// use while loop with brake 
-// 54 to 1
-
-let numbers = 54;
-while (numbers >=1) {
-    console.log(numbers);
-    if (numbers <25){ // 54 theke 24 porjonto dekte cie ami 
-        break
-    }
-    numbers--
+// use this  while loop <br>
+// 10 to 1<br>
+// brake 6<br>
+let number = 10;<br>
+<br>
+while (number >=1){<br>
+    if ( number<6){<br>
+        break<br>
+    }<br>
+    console.log(number);<br>
+    number--<br>
     
-}
-
-------------------------------------------
-
-// E - 3
-// use For loop with brake 
-// 108 to 50 
-//break 108 to 40
-
-for (let number = 108 ; number>=50; number--){
-   // console.log(number); // aekane console dile check chara print dibe .
-    if ( number < 60){
-        break;
-    }
-    console.log(number); // aekane dile aage check then print ...
-}
-console.log("break is started");
+}<br>
+console.log("brake is complete");<br>
 
 ------------------------------------------
 ------------------------------------------
 
-// use this  while loop 
-// 10 to 1
-// brake 6
-let number = 10;
+// use this  while loop <br>
+// 1 to 10<br>
+// brake 6<br>
+// increment<br>
 
-while (number >=1){
-    if ( number<6){
-        break
-    }
-    console.log(number);
-    number--
-    
-}
-console.log("brake is complete");
-
-------------------------------------------
-------------------------------------------
-
-// use this  while loop 
-// 1 to 10
-// brake 6
-// increment
-
-let number = 1;
-
-while (number <=10) {
-    if ( number >6){
-        break
-    }
-    console.log(number);
-    number++
-}
-console.log("increment brake");
+let number = 1;<br>
+<br>
+while (number <=10) {<br>
+    if ( number >6){<br>
+        break<br>
+    }<br>
+    console.log(number);<br>
+    number++<br>
+}<br>
+console.log("increment brake");<br>
 
 ------------------------------------------
 ------------------------------------------
 
-/// use this task for loop
-// 1 to 10
-// brake 8
-// increment
+/// use this task for loop<br>
+// 1 to 10<br>
+// brake 8<br>
+// increment<br>
 
-for ( let number = 1 ; number<=10; number++){
-    if ( number >8){
-        break
-    }
-    console.log(number);
-}
-console.log("increment brake complete");
+for ( let number = 1 ; number<=10; number++){<br>
+    if ( number >8){<br>
+        break<br>
+    }<br><br>
+    console.log(number);<br>
+}<br>
+console.log("increment brake complete");<br>
 
 ------------------------------------------
 =====================================================
-// continue concept & Exercise //
-// continue js method ...
+// continue concept & Exercise //<br>
+// continue js method ...<br>
 
-/// For loop continue E-1
-// 1 to 20 increment 
-// bejor hole badd dea diben 
-for( let number = 1 ; number <=20; number++){
-    if ( number % 2 === 1){ /// alternative number % 2 !==0 
-        continue
-    } 
-    console.log(number);
-}
+/// For loop continue E-1<br>
+// 1 to 20 increment <br><br>
+// bejor hole badd dea diben <br>
+for( let number = 1 ; number <=20; number++){<br>
+    if ( number % 2 === 1){ /// alternative number % 2 !==0 <br>
+        continue<br>
+    } <br>
+    console.log(number);<br>
+}<br>
+<br>
+/// While loop continue E-1 ;<br>
+// 1 to 20 increment <br>
+// bejor hole badd dea diben <br>
+<br>
+let number = 1; // ekta sonka komie rako ,, // ba naw korte paro <br>
+<br>
+while ( number <=20){<br>
+    number++ // ekane increment/decrement dite hobe jate value change korte pare<br>
+    if ( number % 2 === 1){<br>
+        continue<br>
+    }<br>
+    console.log(number);<br>
+    // number++ // dile continue te atka porto , tai while condition er porei dite hobe.<br>
+}<br>
+<br>
+/// While loop continue E-2 ;<br>
+// 20 to 1 decrement <br>
+// 5 dea divide kora jai <br>
+let number = 21;<br>
+<br>
+while ( number >=1){<br>
+    number--<br>
+    if( number % 5 !== 0){ // jegula 5 dea bag jai na tar bad hoe jabe<br>
+        continue<br>
+    }<br>
+    console.log(number);<br>
+}<br>
 
-/// While loop continue E-1 ;
-// 1 to 20 increment 
-// bejor hole badd dea diben 
+-----------------------------------------------
+// Most Advanced brake
+--------------------------------------------
+// 20 to 100 
+// jor guloi output asve 
+// 60 porjonto
+// use koro both while and for
 
-let number = 1; // ekta sonka komie rako ,, // ba naw korte paro 
+// for loop brake 
 
-while ( number <=20){
-    number++ // ekane increment/decrement dite hobe jate value change korte pare
-    if ( number % 2 === 1){
-        continue
+for ( let number = 20 ; number <=100; number = number + 2){ /// jate se loop e dooke taie number + 2 kora 
+    if ( number % 2 === 0){
+        console.log(number);
+        if( number === 60){
+            break
+        }
     }
-    console.log(number);
-    // number++ // dile continue te atka porto , tai while condition er porei dite hobe.
 }
 
-/// While loop continue E-2 ;
-// 20 to 1 decrement 
-// 5 dea divide kora jai 
-let number = 21;
 
-while ( number >=1){
-    number--
-    if( number % 5 !== 0){ // jegula 5 dea bag jai na tar bad hoe jabe
-        continue
+// while  loop brake 
+
+let number = 20;
+
+while (number <=100) {
+    if ( number % 2 === 0){
+        console.log(number)
+        if ( number === 70){
+            break
+        }
     }
-    console.log(number);
+    number= number + 2
 }
-
         Know When To Use A Break And Continue <End>
 =================================================
 
@@ -788,3 +821,53 @@ for loops : <br>
  }<br>
  <br>
  -----------------------------------------------------------
+
+ for loops break :
+/// 1 to 100
+/// 60 porjonto 
+ for ( let number = 1; number <=100 ; number++ ){
+    if ( number > 60){
+        break;
+    }
+    console.log(number)
+ }
+ -----------------------------------------------------------
+
+/// while  loops break :
+/// 1 to 100
+/// 60 porjonto 
+
+let number = 1 ;
+
+while ( number <=100){
+    if ( number > 50){
+        break
+    }
+    console.log("number")
+}
+ -----------------------------------------------------------
+/// for continue
+// jor sonka dekate cie
+// tarmane bijor bad hoe jabe continue dea
+for ( let number = 1 ; number >=60 ; number++){
+    if ( number % 2 !== 0){
+        continue
+    }
+    console.log( number)
+}
+
+ -----------------------------------------------------------
+/// while continue
+// jor sonka dekate cie
+// tarmane bijor bad hoe jabe continue dea
+// 1 to 100
+
+let number = 1;
+
+while ( number <=100){
+    number++
+    if (number % 2 !== 0){
+        continue 
+    }
+    console.log(number)
+}
